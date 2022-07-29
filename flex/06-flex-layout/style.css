@@ -19,7 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 10px;
+  padding: 8px 16px;
 }
 
 input {
@@ -33,6 +33,7 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 .left-links, .right-links {
   display: flex;
@@ -42,22 +43,26 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
+  padding: 16px;
 }
 
 ul {
   padding: 0px;
+  margin: 0;
   list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
-li {
-  margin: 10px; 
-}
+
 
 a:link { text-decoration: none; }
 
